@@ -10,7 +10,7 @@ init:
 test:
 	pytest -vvx db_viewer.py
 
-#clean:
-#	rm aquarium.py
+clean:
+	rm aquarium.db
 
 clean_view: clean init view
